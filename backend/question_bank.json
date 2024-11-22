@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of Kenya?",
+    "options": ["Nairobi", "Mombasa", "Kisumu", "Nakuru"],
+    "correct_answer": "Nairobi"
+  },
+  {
+    "id": 2,
+    "question": "What is 5 + 3?",
+    "options": ["5", "8", "9", "10"],
+    "correct_answer": "8"
+  }
+]
+ 

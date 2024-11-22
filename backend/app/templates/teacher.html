@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Teacher Page</h2>
+<form method="POST" action="/teacher">
+    <div class="form-control">
+        <label for="question">Question</label>
+        <input type="text" id="question" name="question" required />
+    </div>
+    <div class="form-control">
+        <label>Options</label>
+        <input type="text" name="options" placeholder="Option 1" required />
+        <input type="text" name="options" placeholder="Option 2" required />
+        <input type="text" name="options" placeholder="Option 3" required />
+        <input type="text" name="options" placeholder="Option 4" required />
+    </div>
+    <div class="form-control">
+        <label for="correct_answer">Correct Answer</label>
+        <input type="text" id="correct_answer" name="correct_answer" required />
+    </div>
+    <button type="submit">Add Question</button>
+</form>
+{% endblock %}
+ 
